@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-08T14:32:04.230">
+<file name="/workspaces/customerManagement/src/main/java/CManager.java">
+<violation beginline="4" endline="49" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="CManager" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="9" endline="12" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="aC" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="CManager" method="aC" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="15" endline="18" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="aO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="15" endline="15" begincolumn="27" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="CManager" method="aO" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="21" endline="26" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="pO" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="CManager" method="pO" variable="c" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="29" endline="38" begincolumn="12" endcolumn="5" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="gR" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="41" endline="41" begincolumn="18" endcolumn="18" rule="ShortVariable" ruleset="Code Style" class="CManager" method="main" variable="m" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like m
+</violation>
+</file>
+</pmd>
