@@ -1,41 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
-   <duplication lines="3" tokens="24">
-      <file begintoken="97" column="57" endcolumn="31" endline="24" endtoken="120"
-            line="22"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <file begintoken="186" column="42" endcolumn="31" endline="36" endtoken="209"
-            line="34"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <codefragment><![CDATA[        System.out.println("Processing orders for: " + c);
-        for (int i = 0; i < oList.size(); i++) {
-            System.out.println("Processing order: " + oList.get(i));]]></codefragment>
-   </duplication>
-   <duplication lines="2" tokens="14">
-      <file begintoken="107" column="34" endcolumn="31" endline="24" endtoken="120"
-            line="23"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <file begintoken="155" column="34" endcolumn="31" endline="32" endtoken="168"
-            line="31"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <file begintoken="196" column="34" endcolumn="31" endline="36" endtoken="209"
-            line="35"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <codefragment><![CDATA[        for (int i = 0; i < oList.size(); i++) {
-            System.out.println("Processing order: " + oList.get(i));]]></codefragment>
-   </duplication>
-   <duplication lines="6" tokens="11">
-      <file begintoken="122" column="53" endcolumn="10" endline="29" endtoken="132"
-            line="24"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <file begintoken="211" column="42" endcolumn="10" endline="40" endtoken="221"
-            line="36"
-            path="/workspaces/customerManagement/src/main/java/CManager.java"/>
-      <codefragment><![CDATA[            System.out.println("Processing order: " + oList.get(i));
-        }
+   <duplication lines="5" tokens="17">
+      <file begintoken="294" column="43" endcolumn="31" endline="19" endtoken="310"
+            line="15"
+            path="/workspaces/customerManagement/src/main/java/edu/udla/customermanagement/repository/CustomerRepository.java"/>
+      <file begintoken="347" column="29" endcolumn="31" endline="15" endtoken="363"
+            line="11"
+            path="/workspaces/customerManagement/src/main/java/edu/udla/customermanagement/repository/OrderRepository.java"/>
+      <codefragment><![CDATA[        return customersList.contains(name);
     }
-    
-    // Generates a summary report for customers and orders
-    public void gR() {]]></codefragment>
+
+    public List<String> getAll() {
+        return new ArrayList<>(customersList);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="10">
+      <file begintoken="410" column="26" endcolumn="26" endline="18" endtoken="419"
+            line="17"
+            path="/workspaces/customerManagement/src/main/java/edu/udla/customermanagement/service/ReportService.java"/>
+      <file begintoken="461" column="23" endcolumn="26" endline="28" endtoken="470"
+            line="27"
+            path="/workspaces/customerManagement/src/main/java/edu/udla/customermanagement/service/ReportService.java"/>
+      <codefragment><![CDATA[        if (customersList.isEmpty()) {
+            printer.print("No customers registered.");]]></codefragment>
    </duplication>
 </pmd-cpd>
